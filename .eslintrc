@@ -5,6 +5,7 @@
   "extends": ["plugin:prettier/recommended", "prettier"],
   "parser": "@babel/eslint-parser",
   "plugins": ["babel", "prettier"],
+  "endOfLine": "auto",
   "rules": {
     "prettier/prettier": "error"
   }
